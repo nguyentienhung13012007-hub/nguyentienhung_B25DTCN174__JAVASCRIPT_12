@@ -1,12 +1,13 @@
 
 let guild = [
-    { id: "W001", name: "Achilles", class: "Spartan", attack: 90, defense: 70 },
-    { id: "W002", name: "Musashi", class: "Samurai", attack: 85, defense: 60 },
-    { id: "W003", name: "Ragnar", class: "Viking", attack: 80, defense: 65 },
-    { id: "W004", name: "Spartacus", class: "Gladiator", attack: 75, defense: 55 }
+    { id: "W001", name: "Musashi", class: "Samurai", attack: 85, defense: 60 },
+{ id: "W002", name: "Ragnar", class: "Viking", attack: 92, defense: 70 },
+{ id: "W003", name: "Spartacus", class: "Gladiator", attack: 80, defense: 65 },
+{ id: "W004", name: "Lancelot", class: "Knight", attack: 75, defense: 85 },
+{ id: "W005", name: "Leonidas", class: "Spartan", attack: 88, defense: 72 }
 ];
 
-const validClasses = ["Samurai", "Viking", "Gladiator", "Ninja", "Knight", "Spartan"];
+const validClasses = ["Samurai", "Viking", "Gladiator", "Knight", "Spartan"];
 
 
 
@@ -130,7 +131,7 @@ const searchWarrior = () => {
         } else {
             results.forEach(w => console.log(`${w.name} | ATK: ${w.attack} | DEF: ${w.defense}`));
         }
-    }
+    }                                         
 };
 
 
